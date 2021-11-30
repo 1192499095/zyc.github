@@ -56,29 +56,7 @@ public class main {
                 default :
             }
         }while(loop);
-//        mycatcafe.Customer("HAHAHA",5);
-//        mycatcafe.newCat("linhongye", "女", 8, true, "orange");
-//        mycatcafe.newCat("zhuliao", "女", 7, true, "black");
-//        mycatcafe.newCat("fangchenyang", "男", 9, true, "black");
-//        mycatcafe.newCat("lala", "男", 5,  true, "black");
-//        mycatcafe.newCat("sunfuze", "女", 5, true, "orange");
-//        mycatcafe.newCat("momo", "女", 8, false, "orange");
-//        mycatcafe.newCat("yuyu", "女", 7, true, "black");
-//        mycatcafe.newCat("haha", "男", 3, false, "black");
-//        mycatcafe.Customer("zyc", 2);
-//        mycatcafe.Customer("poiu", 3);
-//        System.out.println("==========");
-//        for (Object o : mycatcafe.getCatlist()) {
-//            System.out.println(o);
-//        }
-//        System.out.println("==========");
-//        for (Object o :mycatcafe.getCustomerlist()) {
-//            System.out.println(o);
-//        }
-//        System.out.println("==========");
-//
-//
-//        mycatcafe.rest();
+
     }
 
 
