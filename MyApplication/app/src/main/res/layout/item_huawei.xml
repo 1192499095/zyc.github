@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagehua"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/huawei"/>
+
+        <TextView
+            android:id="@+id/texthua"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Huawei"
+            android:textColor="#000000"
+            android:textSize="50px"
+            android:padding="10dp"
+            android:gravity="center_vertical|left"/>
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager2hua"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#FFFF">
+        </androidx.viewpager2.widget.ViewPager2>
+    </LinearLayout>
+        <TextView
+            android:id="@+id/texth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="华为P50 Pocket继承了P系列对科技美学的追求，灵巧精致的机身非常有质感，背部灵动的双环由全新的摄像头模组和创新圆形外屏组成，一镜一相的巧妙设计有独特的辨识度!"
+            android:textColor="#000000"
+            android:textSize="40px"
+            android:paddingTop="20dp"
+            android:background="#E6E6E6"/>
+
+        <ImageView
+            android:id="@+id/imageh"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:background="#E6E6E6"
+            android:scaleType="fitStart"
+            android:src="@drawable/huaweix" />
+    </LinearLayout>
+
+</ScrollView>
