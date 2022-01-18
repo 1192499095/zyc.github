@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scitemxiaomi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/itemxiaomi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagemi"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xiaomi"/>
+
+        <TextView
+            android:id="@+id/textmi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Xiaomi"
+            android:textColor="#000000"
+            android:textSize="50px"
+            android:padding="10dp"
+            android:gravity="center_vertical|left"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="骁龙8+超豪华散热，屏幕和快充全部顶满，相机是IMX707，这是目前配置最强悍的旗舰手机。"
+        android:textColor="#000000"
+        android:textSize="40px"
+        android:paddingTop="10dp"
+        android:background="#E6E6E6"/>
+    <ImageView
+        android:id="@+id/imagex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:src="@drawable/xiaomix"
+        android:background="#E6E6E6"/>
+</LinearLayout>
+
+
+
+</ScrollView>

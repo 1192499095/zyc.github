@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maindetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="#5697"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/dimage"
+                android:scaleType="centerInside">
+            </ImageView>
+            <TextView
+                android:id="@+id/dname"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text=""
+                android:textColor="#F460D6"
+                android:textSize="60px"
+                android:paddingLeft="5dp"
+                android:layout_gravity="center_vertical|left">
+            </TextView>
+            <TextView
+                android:id="@+id/dfans"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="粉丝数："
+                android:textColor="#000000"
+                android:textSize="40px"
+                android:padding="10dp"
+                android:layout_gravity="center_vertical|left">
+            </TextView>
+            <Button
+                android:id="@+id/dbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:paddingLeft="10dp"
+                android:layout_gravity="right|center"
+                android:text="取消关注">
+            </Button>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/shape"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/off" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/dl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+</ScrollView>
